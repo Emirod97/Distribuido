@@ -1,0 +1,17 @@
+<!ELEMENT Curriculo (Direccion, Email, Empleos, Nacimiento, Nombre, Foto, Telefono)>
+        <!ELEMENT Direccion (Calle, Ciudad, Colonia, Numero)>
+        <!ELEMENT Calle (#PCDATA)>
+        <!ELEMENT Ciudad (#PCDATA)>
+        <!ELEMENT Colonia (#PCDATA)>
+        <!ELEMENT Numero (#PCDATA)>
+        <!ELEMENT Email (#PCDATA)>
+        <!ATTLIST Email type (PERSONAL) #REQUIRED>
+        <!ELEMENT Empleos (Empleo)*>
+        <!ELEMENT Empleo (nombreEmpresa, fInicio, fTermino)*>
+        <!ELEMENT nombreEmpresa (#PCDATA)>
+        <!ELEMENT fInicio (#PCDATA)>
+        <!ELEMENT fTermino (#PCDATA)>
+        <!ELEMENT Nacimiento (#PCDATA)>
+        <!ELEMENT Nombre (#PCDATA)>
+        <!ELEMENT Foto (#PCDATA)>
+        <!ELEMENT Telefono (#PCDATA)>

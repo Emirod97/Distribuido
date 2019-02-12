@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Curriculo SYSTEM 'DTD_Curriculo.dtd' >
+<Curriculo>
+    <Direccion>
+        <Calle>Roma</Calle>
+        <Ciudad>Ensenada</Ciudad>
+        <Colonia>Moderna</Colonia>
+        <Numero>585</Numero>
+    </Direccion>
+    <Email type="PERSONAL">emiliano.rt@gmail.com</Email>
+    <Empleos>
+        <Empleo>
+            <nombreEmpresa>Oxxo</nombreEmpresa>
+            <fInicio>2018-03-12T00:00:00-07:00</fInicio>
+            <fTermino>2018-03-13T00:00:00-07:00</fTermino>
+        </Empleo>
+    </Empleos>
+    <Nacimiento>Ensenada</Nacimiento>
+    <Nombre>Emiliano</Nombre>
+    <Foto>fotito.jog</Foto>
+    <Telefono>6461514238</Telefono>
+</Curriculo>
